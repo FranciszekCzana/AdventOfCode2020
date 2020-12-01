@@ -17,6 +17,11 @@ public class Day1 {
         task2(numbers);
     }
 
+    /**
+     * In this list, find the two entries that sum to 2020.
+     * What do you get if you multiply them together?
+     * @param numbers List of numbers
+     */
     private void task1(List<Integer> numbers) {
         for (int a : numbers) {
             Optional<Integer> b = numbers.stream()
@@ -29,6 +34,11 @@ public class Day1 {
         }
     }
 
+    /**
+     * In this list, find the three entries that sum to 2020.
+     * What do you get if you multiply them together?
+     * @param numbers List of numbers
+     */
     private void task2(List<Integer> numbers) {
         for (int a : numbers) {
             List<Integer> bList = numbers.stream()

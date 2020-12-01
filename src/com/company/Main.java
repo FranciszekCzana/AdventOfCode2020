@@ -13,7 +13,6 @@ public class Main {
         new Day1();
     }
 
-
     public static List<Integer> readIntegersFromFile(File file) {
         List<Integer> list = new ArrayList<>();
         BufferedReader reader = null;
